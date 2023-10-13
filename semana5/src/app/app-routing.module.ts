@@ -4,6 +4,8 @@ import{Semana5Component}from './semana5/semana5.component';
 
 const routes: Routes = [
   {path:'semana5',component:Semana5Component}
+  
+  //{path:'', redirectTo:'/semana5',pathMatch:'full'}
 ];
 
 @NgModule({

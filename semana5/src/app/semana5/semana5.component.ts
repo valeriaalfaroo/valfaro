@@ -7,4 +7,14 @@ import { Component } from '@angular/core';
 })
 export class Semana5Component {
 
+  userData={
+    name:'',
+    lastname:'',
+    email:'',
+  }; 
+
+  onSubmit(){
+    console.log(this.userData); 
+  }
 }
+
